@@ -78,7 +78,8 @@ a specific level to which the current line could be indented.")
              "\\)")
     "^[ \t]*/\\(\\[.*\\]\\)?[ \t]*$"
     "^[ \t]*-#"
-    "^[ \t]*:")
+    "^[ \t]*:"
+    "^[ \t]*- ")
   "A list of regexps that match lines of Haml that open blocks.
 That is, a Haml line that can have text nested beneath it should
 be matched by a regexp in this list.")
